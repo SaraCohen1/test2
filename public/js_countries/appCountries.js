@@ -8,7 +8,7 @@ const init = () => {
 }
 
 const doApi = async () => {
-  let url = "https://test-maor.onrender.com/countries?perPage=20&reverse=yes";
+  let url = "https://test-sara-2.onrender.commaor.onrender.com/countries?perPage=20&reverse=yes";
   try {
 
     let resp = await axios.get(url);

@@ -30,7 +30,7 @@ export default class CountryClass {
   }
 
   async delCountry() {
-    let url = "https://test-maor.onrender.com/countries/" + this.id;
+    let url = "https://test-sara-2.onrender.commaor.onrender.com/countries/" + this.id;
     try {
 
       let resp = await axios({
